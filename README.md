@@ -1,3 +1,7 @@
+# Gomoku App
+----
+The goal of this project is the development of an Android-based system allowing multiple players to play the Gomoku game.
+
 # Authors
 ----
 - José Borges
