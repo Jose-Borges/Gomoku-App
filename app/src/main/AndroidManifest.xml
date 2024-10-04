@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".http.MenuApplication"
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Gomoku"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Gomoku">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".about.AuthorsToHomeActivity"
+            android:label="Authors to HomeActivity">
+        </activity>
+
+        <activity
+            android:name=".about.HomeToAuthorActivity"
+            android:label="Home to Author Activity">
+        </activity>
+
+        <activity
+            android:name=".about.HomeToLobbyActivity"
+            android:label="Home to LobbyActivity">
+        </activity>
+
+        <activity
+            android:name=".about.HomeToRankingsActivity"
+            android:label="Rankings Activity">
+        </activity>
+
+        <activity
+            android:name=".about.LobbyToGameActivity"
+            android:label="Lobby to GameActivity">
+        </activity>
+
+        <activity
+            android:name=".about.LoginToHomeActivity"
+            android:label="Login to HomeActivity">
+        </activity>
+
+        <activity
+            android:name=".about.LoginToSignUpActivity"
+            android:label="Login to Sign Up">
+        </activity>
+
+        <activity
+            android:name=".about.RankingsToHomeActivity"
+            android:label="Rankings to HomeActivity">
+        </activity>
+
+        <activity
+            android:name=".about.SignUpToLoginActivity"
+            android:label="Sign Up to Login">
+        </activity>
+
+    </application>
+</manifest>
