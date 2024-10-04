@@ -1,8 +1,8 @@
 # Authors
 ----
-- Vasco Branco 48259
-- José Borges 48269
-- Sérgio Capela 46080
+- José Borges
+- [Vasco Branco](https://github.com/Vaasco)
+- [Sérgio Capela](https://github.com/sergiocapela)
 
 # Documentation
 ----
